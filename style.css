@@ -1,0 +1,58 @@
+.audiowide-regular {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+#game-canvas
+{
+    background-color: #f9f9ff;
+    width: 100%;
+}
+
+#game-holder
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.game-btn
+{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    cursor: pointer;
+    border: none;
+    background: none;
+    touch-action: none;
+}
+
+.game-btn:hover
+{
+    background: none !important;
+    transition: 0.3;
+}
+
+/* You can adjust rectangle buttons size based on your screen resolution*/
+
+#game-up
+{
+    clip-path: polygon(0% 8.2%, 99.5% 8.2%, 50% 50%);
+}
+
+#game-down
+{
+    clip-path: polygon(0% 99.5%, 99.5% 99.5%, 50% 50%);
+}
+
+#game-left
+{
+    clip-path: polygon(0% 8.2%, 0% 99.5%, 50% 50%);
+}
+
+#game-right
+{
+    clip-path: polygon(99.5% 8.2%, 99.5% 99.5%, 50% 50%);
+}
