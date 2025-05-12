@@ -8,7 +8,7 @@ Optimized for both desktop and mobile — with keyboard and touch controls inclu
 🎮 [Play the game on GitHub Pages](https://parsazfi.github.io/snake-game/)  
 📂 [View the source on GitHub](https://github.com/parsazfi/snake-game)
 
-![Snake Game Preview](preview.png)
+![Snake Game Preview](Preview.png)
 
 ---
 
