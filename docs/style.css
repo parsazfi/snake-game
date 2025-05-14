@@ -1,0 +1,93 @@
+.audiowide-regular
+{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body
+{
+    background: #1A223F;
+}
+
+#container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 0 10px;
+}
+
+#info
+{
+    width: 85%;
+    align-content: center;
+}
+
+#info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px 20px;
+    border-radius: 20px;
+    margin-top: 25px;
+    gap: 20px;
+    color: white;
+    align-self: center;
+}
+
+#info ul, #info p {
+    list-style: none;
+    padding: 0;
+    font-size: 1.5vw;
+    line-height: 2;
+    text-align: left;
+}
+
+#info h1
+{
+    font-family: "Audiowide", sans-serif;
+    font-size: 3vw;
+}
+
+#info p, #info li, #info a {
+    font-family: "Poppins", sans-serif;
+}
+
+
+#info a
+{
+    color: #FF2D55;
+}
+
+
+#game-holder
+{
+    position: relative;
+    width: 100%;
+}
+
+#game-canvas
+{
+    background-color: #1A223F;
+    touch-action: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    #container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #info h1 {
+        font-size: 6vw;
+    }
+
+    #info ul, #info p {
+        font-size: 4vw;
+    }
+}
